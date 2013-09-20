@@ -8,7 +8,9 @@
   var Scope = function(options, data){
     
     var self = this;
-    var options = options || {};
+    if(typeof options === undefined){
+      options = {};
+    }
 
     var opts = {
       el: options.el,
@@ -36,7 +38,7 @@
       paper.setAttribute("height", self.height);
       el.appendChild(paper);
       self.ctx = paper.getContext("2d");
-    }
+    };
 
     var reset = function(){
       self.latch = 0;
@@ -48,7 +50,7 @@
       self.time = new Date().getTime();
       self.next = 0;
       self.active = true;
-    }
+    };
 
     var render = function(){
 
@@ -94,7 +96,7 @@
         for(i = start; i < self.points; i++){
           if(data[i] === null) {
             continue;
-          };
+          }
           x = i * xf;
           y = self.height- ((data[i] - min) * yf);
           //if(y !== yp && x !== xp){
@@ -114,7 +116,7 @@
         for(i = 0; i < self.points; i++){
           if(data[i] === null) {
             continue;
-          };
+          }
           x = i * xf;
           y = self.height - ((data[i] - min) * yf);
           self.ctx.fillRect(x, y, xf, self.height - y);
