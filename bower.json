@@ -1,0 +1,24 @@
+{
+  "name": "scope",
+  "version": "0.0.0",
+  "authors": [
+    "Simon Swain <simon@simonswain.com>"
+  ],
+  "description": "Simple realtime charting",
+  "main": "scope.js",
+  "keywords": [
+    "chart",
+    "graph",
+    "canvas",
+    "data",
+    "realtime"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
