@@ -2,7 +2,7 @@
 
 Simple Realtime Charting
 
-See examples in operation at http://simonswain.github.io/scope/index.html
+See examples in operation at http://simonswain.github.io/scope/
 
 Get Scope on here or via `bower install scope`.
 
