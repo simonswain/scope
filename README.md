@@ -33,6 +33,7 @@ values.count(n); // Count n events with one call.
 
 ## Examples
 
+Basics
 ```
 <div class="scope sample"></div>
 
@@ -47,6 +48,7 @@ var sample = new Scope({
 });
 ```
 
+Simple value chart
 ```javascript
 var values = new Scope({
   el: '.values',
@@ -60,6 +62,7 @@ setInterval(function(){
 }, 250);
 ```
 
+Count events per period
 ```javascript
 var counts = new Scope({
   el: '.counts',
@@ -72,6 +75,7 @@ setInterval(function(){
 }, 200);
 ```
 
+Timeseries data from array
 ```javascript
 var timeseries = new Scope({
   el: '.timeseries',
@@ -87,6 +91,7 @@ setInterval(function(){
 }, 1000);
 ```
 
+Sample values from mouse velocity
 ```javascript
 var last = false;
 document.addEventListener(
