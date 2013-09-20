@@ -2,6 +2,8 @@
 
 Simple Realtime Charting
 
+See examples in operation at http://simonswain.github.io/scope/
+
 Get Scope on Github and via `bower install`
 
 Built for modern browsers, uses HTML Canvas and has no dependencies.
@@ -30,8 +32,6 @@ values.count(n); // Count n events with one call.
 ```
 
 ## Examples
-
-See examples in operation at http://simonswain.github.io/scope/
 
 ```
 <div class="scope sample"></div>
