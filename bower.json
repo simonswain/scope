@@ -1,11 +1,12 @@
 {
   "name": "scope",
-  "version": "0.0.0",
+  "main": "scope.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/simonswain/scope",
   "authors": [
     "Simon Swain <simon@simonswain.com>"
   ],
   "description": "Simple realtime charting",
-  "main": "scope.js",
   "keywords": [
     "chart",
     "graph",
@@ -13,12 +14,5 @@
     "data",
     "realtime"
   ],
-  "license": "MIT",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ]
+  "license": "MIT"
 }

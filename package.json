@@ -1,31 +1,35 @@
 {
-  "name"          : "scope",
-  "description"   : "Simple realtime charting.",
-  "author"        : "Simon Swain <simon@simonswain.com>",
-  "homepage"      : "http://github.com/simonswain/scope",
-  "main"          : "scope.js",
-  "version"       : "0.0.1",
-  "files"         : ["scope.js"],
-  "keywords"      : [
-    "chart", 
-    "canvas", 
+  "name": "scope",
+  "description": "Simple realtime charting.",
+  "author": "Simon Swain <simon@simonswain.com>",
+  "homepage": "http://github.com/simonswain/scope",
+  "main": "scope.js",
+  "version": "0.0.1",
+  "files": [
+    "scope.js"
+  ],
+  "keywords": [
+    "chart",
+    "canvas",
     "realtime"
   ],
-  "repository"    : {
-    "type": "git", 
+  "repository": {
+    "type": "git",
     "url": "git://github.com/simonswain/scope.git"
   },
   "bugs": {
     "url": "https://github.com/simonswain/scope/issues"
   },
-  "licenses": [{
-    "type": "MIT",
-    "url": "https://github.com/simonswain/scope/blob/master/LICENSE"
-  }],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/simonswain/scope/blob/master/LICENSE"
+    }
+  ],
   "devDependencies": {
     "grunt": "~0.4.1",
-    "grunt-contrib-jshint": "~0.6.3",
+    "grunt-contrib-jshint": "~0.6.4",
     "grunt-contrib-nodeunit": "~0.2.0",
-    "grunt-contrib-uglify": "~0.2.2"
+    "grunt-contrib-uglify": "~0.2.4"
   }
 }
